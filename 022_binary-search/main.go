@@ -8,7 +8,7 @@ func main() {
 
 func search(nums []int, target int) int {
 	for i, j := 0, len(nums)-1; i <= j; {
-		m := i + (j-i)/2
+		m := (i + j) / 2
 		if nums[m] < target {
 			i = m + 1
 		} else if nums[m] > target {
