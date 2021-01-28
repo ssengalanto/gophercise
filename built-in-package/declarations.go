@@ -44,7 +44,9 @@ func main() {
 // func declaration
 func printAll() {
 	/* local/block scope variables */
-	x, y := 1, 0 // multiple short hand variable declaration
-	fmt.Println(x, y)
+	// short-hand variable declaration can only be used locally while var declaration can be used locally or package level scope
+	x, y := 1, 2 // multiple short hand declaration
+	z := 3       // single short hand declaration
+	fmt.Println(x, y, z)
 	fmt.Println(s, i, b, si, m, c, p, arr, pt)
 }
