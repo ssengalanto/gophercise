@@ -23,5 +23,4 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Fprint: %v\n", err)
 	}
 	fmt.Print(n, " bytes written.\n")
-
 }
