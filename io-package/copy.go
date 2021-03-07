@@ -15,6 +15,6 @@ func main() {
 	if a, err := io.Copy(os.Stdout, r); err != nil {
 		log.Fatal(err)
 	} else {
-		fmt.Println(a, len(s)
+		fmt.Println(a, len(s))
 	}
 }
