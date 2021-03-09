@@ -8,7 +8,7 @@ import (
 
 /*
 	Fscanf scans text read from r, storing successive space-separated values into successive arguments as determined by the format.
-	It returns the number of items successfully parsed. Newlines in the input must match newlines in the format.
+	It returns the number of items successfully parsed. Newlines in the input must match.go newlines in the format.
 
 	func Fscanf(r io.Reader, format string, a ...interface{}) (n int, err error)
 */

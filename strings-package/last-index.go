@@ -13,7 +13,7 @@ import (
 
 func main() {
 	a := "go gopher"
-	fmt.Println(strings.Index(a, "go")) // first match 0
-	fmt.Println(strings.LastIndex(a, "go")) // last match 3
-	fmt.Println(strings.LastIndex(a, "rodent")) // no match -1
+	fmt.Println(strings.Index(a, "go")) // first match.go 0
+	fmt.Println(strings.LastIndex(a, "go")) // last match.go 3
+	fmt.Println(strings.LastIndex(a, "rodent")) // no match.go -1
 }
